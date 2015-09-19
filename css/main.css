@@ -151,6 +151,145 @@ section#features {
     font-weight: bold;
 }
 
+section#parallax {
+    height: 500px;
+    background-image: url(../img/ipadApp.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2.parallax {
+    font-size: 3.6em;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 7px 8px #000;
+    -webkit-text-shadow: 0 7px 8px #000;
+    -moz-text-shadow: 0 7px 8px #000;
+}
+
+h2.parallax:after {
+    display: none;
+}
+
+section#download {
+    padding-bottom: 0;
+}
+
+section#download .content-downloads {
+    height: 700px;
+    position: relative;
+}
+
+section#download div.phone {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100%;
+    -webkit-box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, .15);
+    box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, .15);
+}
+
+section#download div.phone img{
+    position: absolute;
+    bottom: 0;
+}
+
+section#download .downloads-empty {
+    width: 50%;
+    background-color: #f5f5f5;
+    float: right;
+    height: 100%;
+    z-index: 2;
+    background-image: url(../img/downloadAppBG.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+section#download .download {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50px;
+}
+
+section#download .platforms > div {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 3px solid #15365b;
+    padding: 11px 0;
+    poaition: relative;
+    font-size: 1.2em;
+    padding-left: 50px;
+    color: #0c243d;
+}
+
+section#support {
+    padding-bottom: 0;
+    background-color: #1a3d61;
+}
+
+section#support h2 {
+    color: #fff;
+}
+
+section#support h2:after  {
+    background-color: #fff;
+}
+
+section#support p {
+    font-size: 1.6em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section#support input,
+section#support textarea {
+    min-height: 30px;
+    margin-bottom: 15px;
+    background-color: #1a3d61;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+section#support textarea {
+    min-height: 200px;
+}
+
+section#support input.btn {
+    background-color: #ffffff;
+    color: #1a3d61;
+    font-size: 1.4em;
+    float: right;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff !important;
+}
+
+:-moz-placeholder {
+    color: #ffffff !important;
+}
+
+::-moz-placeholder {
+    color: #ffffff !important;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff !important;
+}
+
+footer p {
+    background-color: #102745;
+    padding: 10px 0;
+    color: #ffffff;
+    maring-bottom: 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
