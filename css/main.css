@@ -59,16 +59,17 @@ textarea {
 body > section {
     clear: both;
     padding: 50px;
-
 }
 
 h2, h3 {
     color: #15365b;
     margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h4 {
     color: #15365b;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h2:after,
@@ -116,6 +117,8 @@ h3:after {
     text-shadow: 1px 1px 1px black;
     -webkit-text-shadow: 1px 1px 1px black;
     -moz-text-shadow: 1px 1px 1px black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 
 .nav > li.active {
