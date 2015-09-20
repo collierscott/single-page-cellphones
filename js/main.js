@@ -29,6 +29,19 @@ $(function(){
         offset: '50%'
     });
 
+    $('#features .blue-circle').waypoint(function() {
+        $(this.element).addClass('animated fadeInUp');
+    }, {
+        offset: '75%'
+    });
+
+    $('#screenshots .col-sm-4').waypoint(function() {
+        $(this.element).addClass('animated zoomIn');
+        $(this.element).css({'opacity': 1})
+    }, {
+        offset: '75%'
+    });
+
     $('.features-image img').waypoint(function() {
         $('.features-image img').addClass('animated flip');
     }, {
