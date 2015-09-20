@@ -41,7 +41,7 @@ $(function(){
         offset: '50%'
     });
 
-    $('#screenshots .col-sm-4').waypoint(function() {
+    $('#screenshots .col-xs-4').waypoint(function() {
         $(this.element).addClass('animated zoomIn');
         $(this.element).css({'opacity': 1})
     }, {

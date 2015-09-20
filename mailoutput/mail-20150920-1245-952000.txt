@@ -1,0 +1,7 @@
+To: Contact from website
+Subject: This message has been sent by Scott A Collier  Email it's:  scollier67@hotmail.com  Message is:  a
+
+From:  scollier67@hotmail.com
+X-Mailer: PHP/5.6.8
+Mime Version: 1.0 
+Content Type: text/plain
