@@ -23,6 +23,12 @@ $(function(){
 
     });
 
+    $('.features-image img').waypoint(function() {
+        $('.features-image img').addClass('animated flip');
+    }, {
+        offset: '50%'
+    });
+
 });
 
 smoothScroll.init({
