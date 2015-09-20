@@ -346,6 +346,31 @@ footer p {
     maring-bottom: 0;
 }
 
+/* Animations */
+.animation1,
+.animation2,
+.animation3 {
+    opacity: 0;
+}
+
+.animation1 {
+
+}
+
+.animation2 {
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    -o-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+.animation3 {
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    -o-animation-delay: .6s;
+    animation-delay: .6s;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

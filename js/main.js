@@ -23,6 +23,12 @@ $(function(){
 
     });
 
+    $('#about .blue-circle').waypoint(function() {
+        $('#about .blue-circle').addClass('animated fadeInUp');
+    }, {
+        offset: '50%'
+    });
+
     $('.features-image img').waypoint(function() {
         $('.features-image img').addClass('animated flip');
     }, {
