@@ -223,7 +223,7 @@ h2.parallax:after {
 }
 
 section#download {
-    padding-bottom: 0;
+    padding: 0;
 }
 
 section#download .content-downloads {
@@ -233,7 +233,7 @@ section#download .content-downloads {
 
 section#download div.phone {
     position: relative;
-    width: 50%;
+    width: 100%;
     float: left;
     height: 100%;
     -webkit-box-shadow: inset -7px -7px 12px -2px rgba(0, 0, 0, .15);
@@ -247,7 +247,7 @@ section#download div.phone img{
 }
 
 section#download .downloads-empty {
-    width: 50%;
+    width: 100%;
     background-color: #f5f5f5;
     float: right;
     height: 100%;
@@ -281,7 +281,7 @@ section#download .platforms i {
     font-size: 2.5em;
     position: absolute;
     left: 20px;
-    top: 12px;
+    top: 2px;
 }
 
 section#support {
@@ -444,9 +444,35 @@ footer p {
         text-align: center;
     }
 
+    .features-image img {
+        margin: 0 auto;
+    }
+
     section#features h4,
     section#features p{
         text-align: center;
+    }
+
+    section#download .downloads-empty{
+        background-image: none;
+    }
+
+    section#download div.phone {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    section#download .platforms > div {
+        margin-bottom: 10px;
+    }
+
+    /* to fix iphone issue*/
+    section#parallax {
+        background-attachment: scroll;
+    }
+
+    section#download .content-downloads {
+        height: 375px;
     }
     
 }
