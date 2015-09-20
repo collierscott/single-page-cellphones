@@ -35,6 +35,12 @@ $(function(){
         offset: '75%'
     });
 
+    $('.features-image img').waypoint(function() {
+        $('.features-image img').addClass('animated flip');
+    }, {
+        offset: '50%'
+    });
+
     $('#screenshots .col-sm-4').waypoint(function() {
         $(this.element).addClass('animated zoomIn');
         $(this.element).css({'opacity': 1})
@@ -42,10 +48,16 @@ $(function(){
         offset: '75%'
     });
 
-    $('.features-image img').waypoint(function() {
-        $('.features-image img').addClass('animated flip');
+    $('#download div.phone img').waypoint(function() {
+        $(this.element).addClass('animated fadeInRight');
     }, {
-        offset: '50%'
+        offset: '75%'
+    });
+
+    $('#download .platforms > div').waypoint(function() {
+        $(this.element).addClass('animated fadeInUp');
+    }, {
+        offset: '75%'
     });
 
 });
