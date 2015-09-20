@@ -25,8 +25,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7872784">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.48592284">
+              <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -47,11 +47,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.807692">
-              <caret line="330" column="97" selection-start-line="330" selection-start-column="97" selection-end-line="330" selection-end-column="97" />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="358" column="99" selection-start-line="358" selection-start-column="99" selection-end-line="358" selection-end-column="99" />
               <folding>
-                <marker date="1442710079491" expanded="true" signature="966:1051" placeholder="..." />
-                <marker date="1442710079491" expanded="true" signature="990:1035" placeholder="{...}" />
+                <marker date="1442710931123" expanded="true" signature="1036:1121" placeholder="..." />
+                <marker date="1442710931123" expanded="true" signature="1060:1105" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -167,6 +167,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Scott\Documents\Onlinespaces\Projects\websites\development\udemy-single-page\js" />
+      <recent name="C:\Users\Scott\Documents\Onlinespaces\Projects\websites\development\udemy-single-page\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Scott\Documents\Onlinespaces\Projects\websites\development\udemy-single-page\css" />
@@ -265,13 +266,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrapValidator.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrapValidator.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.807692">
-          <caret line="330" column="97" selection-start-line="330" selection-start-column="97" selection-end-line="330" selection-end-column="97" />
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="358" column="99" selection-start-line="358" selection-start-column="99" selection-end-line="358" selection-end-column="99" />
           <folding>
-            <marker date="1442710079491" expanded="true" signature="966:1051" placeholder="..." />
-            <marker date="1442710079491" expanded="true" signature="990:1035" placeholder="{...}" />
+            <marker date="1442710931123" expanded="true" signature="1036:1121" placeholder="..." />
+            <marker date="1442710931123" expanded="true" signature="1060:1105" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -288,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7872784">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.48592284">
+          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
           <folding />
         </state>
       </provider>
