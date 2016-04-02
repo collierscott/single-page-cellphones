@@ -88,12 +88,30 @@ h3:after {
     background-color: transparent;
     border: none;
     min-height: 90px;
+    
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease;
+}
+
+.container.shrink-effect {
+    background-color: #26395A;
     padding-top: 20px;
     -webkit-transition: 1s all ease;
     -moz-transition: 1s all ease;
     -ms-transition: 1s all ease;
     -o-transition: 1s all ease;
     transition: 1s all ease;
+}
+
+.container.shrink-effect.effect {
+    background-color: #123156;
+    -webkit-box-shadow: 0 0 0 #000000;
+    -moz-box-shadow: 0 0 0 #000000;
+    box-shadow: 0 0 0 #000000;
+    padding-top: 0;
 }
 
 .effect {
